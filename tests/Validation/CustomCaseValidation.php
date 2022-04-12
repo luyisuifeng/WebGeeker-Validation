@@ -1,9 +1,9 @@
 <?php
 
-namespace WebGeeker\ValidationTest;
+namespace WebParams\ValidationTest;
 
-use \WebGeeker\Validation\Validation;
-use WebGeeker\Validation\ValidationException;
+use \WebParams\Validation\Validation;
+use WebParams\Validation\ValidationException;
 
 /*
  * 如何实现自定义验证器：
