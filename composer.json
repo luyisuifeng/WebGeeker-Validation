@@ -10,12 +10,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "webparams\\Validation\\": "src/Validation/"
+            "WebParams\\Validation\\": "src/Validation/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "webparams\\ValidationTest\\": "tests/Validation/"
+            "WebParams\\ValidationTest\\": "tests/Validation/"
         }
     },
     "minimum-stability": "stable",
