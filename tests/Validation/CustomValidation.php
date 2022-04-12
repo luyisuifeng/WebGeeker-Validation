@@ -7,10 +7,10 @@
  * Email: photondragon@163.com
  */
 
-namespace WebGeeker\ValidationTest;
+namespace WebParams\ValidationTest;
 
-use \WebGeeker\Validation\Validation;
-use WebGeeker\Validation\ValidationException;
+use \WebParams\Validation\Validation;
+use WebParams\Validation\ValidationException;
 
 /**
  * @class CustomValidation
