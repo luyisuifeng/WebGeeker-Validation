@@ -1917,7 +1917,7 @@ class Validation
         if (is_array($value)) {
             $is = true;
             foreach ($value as $key => $val) {
-                if (!is_string($key)) {
+                if (!is_string($key) && !is_integer($key)) { //fix -- 兼容二维数组key为数字时,对同级value的校验
                     $is = false;
                     break;
                 }
