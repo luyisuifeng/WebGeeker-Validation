@@ -14,7 +14,7 @@
  * elaborate description
  */
 
-namespace WebGeeker\ValidationTest;
+namespace WebParams\ValidationTest;
 
 /**
  * @class MyValidation
