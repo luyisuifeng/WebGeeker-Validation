@@ -13,7 +13,7 @@
  * elaborate description
  */
 
-namespace WebGeeker\ValidationTest;
+namespace WebParams\ValidationTest;
 
 use Exception;
 use PHPUnit\Framework\TestCase;

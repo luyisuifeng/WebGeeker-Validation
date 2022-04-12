@@ -1,6 +1,6 @@
 <?php
 
-namespace WebGeeker\ValidationTest;
+namespace WebParams\ValidationTest;
 
 class MyValidation3 extends CustomSampleValidation
 {

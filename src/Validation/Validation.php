@@ -13,7 +13,7 @@
  * elaborate description
  */
 
-namespace WebGeeker\Validation;
+namespace WebParams\Validation;
 
 /**
  * @class Validation

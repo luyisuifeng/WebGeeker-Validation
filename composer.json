@@ -1,5 +1,5 @@
 {
-    "name": "web-params/validation",
+    "name": "webparams/validation",
     "description": "Validation for Web Params",
     "license": "MIT",
     "authors": [
@@ -10,12 +10,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "web-params\\Validation\\": "src/Validation/"
+            "webparams\\Validation\\": "src/Validation/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "web-params\\ValidationTest\\": "tests/Validation/"
+            "webparams\\ValidationTest\\": "tests/Validation/"
         }
     },
     "minimum-stability": "stable",
