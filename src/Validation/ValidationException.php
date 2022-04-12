@@ -7,7 +7,7 @@
  * Email: photondragon@163.com
  */
 
-namespace WebGeeker\Validation;
+namespace WebParams\Validation;
 
 /**
  * @class ValidationException
