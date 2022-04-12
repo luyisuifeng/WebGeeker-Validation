@@ -1,6 +1,6 @@
 {
-    "name": "webgeeker/validation",
-    "description": "Validation for WebGeeker",
+    "name": "params/validation",
+    "description": "Validation for Web Params",
     "license": "MIT",
     "authors": [
         {
@@ -10,12 +10,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "WebGeeker\\Validation\\": "src/Validation/"
+            "WebValidation\\": "src/Validation/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "WebGeeker\\ValidationTest\\": "tests/Validation/"
+            "WebValidationTest\\": "tests/Validation/"
         }
     },
     "minimum-stability": "stable",
