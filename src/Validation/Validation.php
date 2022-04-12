@@ -1695,7 +1695,7 @@ class Validation
         if (is_string($regexp) === false || $regexp === '')
             throw new ValidationException("“${alias}”参数的验证模版(Regexp:)格式错误, 没有提供正则表达式");
 
-        if (is_string($value)) {
+        if (is_string($value) || is_numeric($value)) { //fix --兼容参数为整数或者小数的情况
             try {
                 $result = @preg_match($regexp, $value);
                 // 一些常用框架会set_error_handler()，用自定义错误处理方法将warning/error转换为异常
